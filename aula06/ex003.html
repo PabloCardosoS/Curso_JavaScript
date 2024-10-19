@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(7, 22, 56);
+            color: rgb(255, 251, 0);
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color:rgb(0, 255, 34);
+                    }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Meu primeiro programa usando JavaScript</p>
+    <h2></h2>
+    <script>
+        // var n1 = window.prompt('Digite um número: '); // String
+        // var n2 = window.prompt('Digite outro número: '); // String
+        // var soma = n1 + n2; // Vai concatenar duas strings
+        // window.alert('A soma dos valores é ' + soma) // O + é para concatenar
+
+        var n1 = window.prompt('Digite um número: '); // String
+        var n2 = window.prompt('Digite outro número: '); // String
+        var soma = Number(n1) + Number(n2); 
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${soma}`);
+    </script>
+</body>
+</html>
